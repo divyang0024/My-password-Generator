@@ -41,6 +41,7 @@ function App() {
             my password generator
           </h1>
           <input
+            className="box"
             type="text"
             id="inputField"
             value={password}
@@ -85,7 +86,7 @@ function App() {
                 <p className="text-[#51829B]">Charcater Allowed</p>
               </div>
             </div>
-            <button id="copyButton" onClick={copyPasswordToClipboard}>
+            <button id="copyButton" className="box" onClick={copyPasswordToClipboard}>
               Copy
             </button>
           </div>
